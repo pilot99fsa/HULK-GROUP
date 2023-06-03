@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <!-- bootstrapのCSSのLink -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>HULK GROUP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--　header　ヘッダーとナビゲーションバーのセクション -->
+    <header>
+        <nav class="navbar  navbar-light navbar-expand-lg bg-primary py-3">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <h2 class="text-white" pt-1>HULK GROUP</h2>
+                </a>
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">サービス</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">企業情報</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">採用情報</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ニュース</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">お問い合わせ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 　newsバー ニュースバーのセクション  -->
+
+    <div class="news-bar">
+        <div class="news-bar-contents">
+            <p>○プロ野球チーム、京都○○○○○とのスポンサー契約の締結について</p>
+        </div>
+    </div>
+
+    <!-- 　main メインコンテンツのセクション  -->
+
+
+    <main>
+
+        <!-- 事業紹介の見出し　-->
+
+        <div class="hero vh-100 d-flex align-items-center parallax-window" data-parallax="scroll" data-speed="1"
+            data-position="center top" data-image-src="./images/parallax01.jpg" data-natural-width="1600"
+            data-natural-height="900" id="parallax">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9 mx-auto text-align-center text-center text-white">
+                        <h2>全ての人に、スポーツを</h2>
+                        <p class="mt-4">「スポーツを通してより良い未来を創る」<br>
+                            そんな理想を実現するために私たちは<br>
+                            地域社会や企業のスポーツ事業を支援しています。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- services 事業内容紹介のセクション -->
+
+        <section id="services-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 mx-auto text-align-center text-center">
+                        <h3 class="our-buisiness text-dark text-wrap">OUR BUISINESS</h3>
+                        <p class="py-4">私たちは皆様のスポーツ活動を<br>
+                            支援するために、様々な事業を展開しています。<br>
+                            その一部をご紹介します。<br>
+                            (画像をクリックすると各ページに飛びます。)</p>
+                    </div>
+                </div>
+                <div class="row justify-content-around px-5">
+                    <div class="card-effect col-xl-5 fadein-left">
+                        <div class="service-headline">
+                            <h6 class="text-dark">学校スポーツ支援</h5>
+                                <p class="pt-3">主に学校のスポーツ系の部活動に外部インストラクターの派遣や機材のレンタル事業を行っております。</p>
+                        </div>
+                        <div class="service-image">
+                            <img src="image/sports_education.jpg" alt="学校スポーツ支援事業位" />
+                            <p>学校スポーツ支援</p>
+                        </div>
+                    </div>
+                    <div class="card-effect col-xl-5 fadein-right">
+                        <div class="service-headline">
+                            <h6 class="text-dark">幼児教育事業</h6>
+                            <p class="pt-3">幼稚園事業などの幼児の教育や、保育士の資格取得支援などの保育士養成事業などについての紹介です。</p>
+                        </div>
+                        <div class="service-image">
+                            <img src="image/chid_education.jpg" alt="幼児教育事業" />
+                            <p>幼児教育事業</p>
+                        </div>
+                    </div>
+
+                    <div class="card-effect col-xl-5 fadein-left">
+                        <div class="service-headline">
+                            <h6 class="text-dark">サプリメント開発・販売事業</h6>
+                            <p class="pt-3"><span>HULK
+                                    SPORTS</span>ブランドを展開し、サプリメントの開発・販売事業を行っております。</p>
+                        </div>
+                        <div class="service-image">
+                            <img src="image/suplement.jpg" alt="サプリメント開発・販売事業">
+                            <p>サプリメント<br />開発・販売事業</p>
+                        </div>
+                    </div>
+                    <div class="card-effect col-xl-5 fadein-right">
+                        <div class="service-headline">
+                            <h6 class="text-dark">スポーツ用品事業</h6>
+                            <p class="pt-3">シューズやウェアなどの衣類の製造販売事業についての紹介です。</p>
+                        </div>
+                        <div class="service-image">
+                            <img src="image/equipment.jpg" alt="スポーツ用品事業" />
+                            <p>スポーツ用品事業</p>
+                        </div>
+                    </div>
+                    <div class="card-effect col-xl-5 fadein-left">
+                        <div class="service-headline">
+                            <h6 class="text-dark">プロスポーツチーム支援活動</h6>
+                            <p class="pt-3">様々なプロスポーツチームのスポンサー活動についての紹介です</p>
+                        </div>
+                        <div class="service-image">
+                            <img src="image/pro_sports.jpg" alt="プロスポーツチーム支援活動" />
+                            <p>プロスポーツ支援活動</p>
+                        </div>
+                    </div>
+                    <div class="card-effect col-xl-5 fadein-right">
+                        <div class="service-headline">
+                            <h5 class="text-dark">HULK GROUPの歩み</h5>
+                            <p class="pt-3">HULK GROUPのこれまでの歴史について紹介します。</p>
+                        </div>
+                        <div class="service-image">
+                            <img src="image/hulk_logo.jpg" alt="ハルクグループの歩み" />
+                            <p>HULK GROUPの<br />これまでの歩み</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- News ニュースのセクション　-->
+
+        <section id="news-section">
+
+            <div class="container">
+                <div class="row justify-content-around">
+                    <div class="news-container">
+                        <h2>NEWS</h2>
+                        <div class="news-bg">
+                            <div class="news-content fadein-bottom">
+                                <dl class="news-content-upper">
+                                    <dt class="time">2023.03.15</dt>
+                                    <dd class="news-category">お知らせ</dd>
+                                    <dd class="news-tag">#採用情報</dd>
+                                </dl>
+                                <div class="news-content-lower">
+                                    <p>2025年卒予定の新卒採用について</p>
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="news-content fadein-bottom">
+                                <dl class="news-content-upper">
+                                    <dt class="time">2023.03.01</dt>
+                                    <dd class="news-category">お知らせ</dd>
+                                    <dd class="news-tag">#企業情報</dd>
+                                </dl>
+                                <div class="news-content-lower">
+                                    <p>HULKグループ、2022年10-12月期の決算を発表</p>
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="news-content fadein-bottom">
+                                <dl class="news-content-upper">
+                                    <dt class="time">2023.02.01</dt>
+                                    <dd class="news-category">ニュースリリース</dd>
+                                    <dd class="news-tag">#HULKGROUP</dd>
+                                </dl>
+                                <div class="news-content-lower">
+                                    <p>○○庁との教育事業の契約締結について</p>
+                                </div>
+                                <hr>
+                            </div>
+                            <a href="#" class="news-read-more">READ MORE</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+        </section>
+    </main>
+    <footer class="footer mt-4 bg-primary py-3">
+        <div class="container text-center">
+            <span class="text-white">HULK GROUP &copy; All Right Reserved.<br>※当サイトは架空の企業サイトです。</span>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- 次の行はbootstrapのjsバンドル -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- 事業紹介のセクションの動き 左側 フェードイン-->
+    <script>
+        $(function () {
+            $(window).scroll(function () {
+                $('.fadein-left').each(function () {
+                    var targetElement = $(this).offset().top;
+                    var scroll = $(window).scrollTop();
+                    var windowHeigt = $(window).height();
+                    if (scroll > targetElement - windowHeigt + 150) {
+                        $(this).addClass('scrollin-left');
+                    }
+                });
+            });
+        });
+    </script>
+
+    <!-- 事業紹介のセクションの動き 右側 フェードイン-->
+    <script>
+        $(function () {
+            $(window).scroll(function () {
+                $('.fadein-right').each(function () {
+                    var targetElement = $(this).offset().top;
+                    var scroll = $(window).scrollTop();
+                    var windowHeigt = $(window).height();
+                    if (scroll > targetElement - windowHeigt + 150) {
+                        $(this).addClass('scrollin-right');
+                    }
+                });
+            });
+        });
+    </script>
+
+    <!-- ニュースのコンテンツの動き 下からフェードイン　-->
+    <script>
+        $(function () {
+            $(window).scroll(function () {
+                $('.fadein-bottom').each(function () {
+                    var targetElement = $(this).offset().top;
+                    var scroll = $(window).scrollTop();
+                    var windowHeigt = $(window).height();
+                    if (scroll > targetElement - windowHeigt + 150) {
+                        $(this).addClass('scrollin-bottom');
+                    }
+                });
+            });
+        });
+    </script>
+
+    <!-- jQuery script -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
