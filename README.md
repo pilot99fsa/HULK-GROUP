@@ -45,7 +45,12 @@
 
 プログラミングチュートリアル(Shin Code) 様 : Bootstrap5でレスポンシブなウェブサイトを作ってみよう - HTML/CSS/Bootstrap5チュートリアル(https://youtu.be/8u-nhouM9cw)
 
+# 使用した言語、エディタなど
 
+エディタ: VScode
 
+言語: HTML,CSS(SCSS),JavaScript,jQuery
+
+写真素材: Unsplash(https://unsplash.com/ja)
 
 
